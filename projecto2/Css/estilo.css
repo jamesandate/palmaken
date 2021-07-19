@@ -1,0 +1,37 @@
+body{
+	background-color: #ffffcc;
+	widows: 0;
+	margin: 0;
+	padding: 0;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+	    padding: 0;
+		background-color: #333;
+		overflow: hidden;
+	}
+      li{
+       float: left;
+   }
+      li a {
+        display: block;
+      	color: white;
+      	text-align: center;
+      	padding: 25px 30px;
+      	text-decoration: none;
+      	
+      }
+      li a:hover:not(.active){
+      	background-color: #111;
+      }
+      .active{
+      	background-color: #4CAF50;
+      }
+      .slide-container{
+      	position: relative;
+      }
+     .slide img{
+     	width: 100%;
+     	height: 600px;
+     }

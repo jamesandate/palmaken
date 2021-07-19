@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>choping</title>
+	<link rel="stylesheet" type="text/css" href="Css/estilo.css">
+	<script type="text/javascript" src="Js/js1.js"></script>
+
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+	</ul>
+
+	<div class="slide-container" >
+		<div class="effect slide" >
+			<img  src="imagem/1.jpg" >
+		</div> 
+		<div class="effect slide">
+			<img  src="imagem/2.jpg" >
+		</div>
+		<div class="effect slide">
+			<img  src="imagem/3.jpg" >
+		</div>
+		<div class="effect slide"> 
+			<img  src="imagem/4.jpg" >
+		</div>
+		<div class="effect slide">
+			<img  src="imagem/5.jpg" >
+		</div>	
+	</div>
+	<!--<script >
+var index=0;
+show();
+function show(){
+	var i;
+	var slides=document.getElementsByClassName("slide");
+	for(i=0;i<slides.length;i++){
+		slides[i].style.display="none";
+	}
+	index=index+1;
+	if(index>slides.length){
+		index=1;
+
+	}
+	slides[index-1].style.display="block";
+	setTimeout(show,1500);
+}
+	</script>-->
+
+</body>
+</html>
